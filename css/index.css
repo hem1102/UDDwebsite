@@ -1,0 +1,44 @@
+html, body 
+{
+	margin: 0; 
+	padding: 0; 
+	height: 100%; 
+	border:none;
+}
+#title 
+{
+	text-align: center;
+	width:100%;
+}
+#header 
+{
+    background: #AFACE8;
+	
+    color: white;
+
+    font-size: 20px;
+    line-height: 1.6em;
+
+    text-align: center;
+
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+	
+    width:100%;
+    box-sizing:border-box;
+}
+#mainframe
+{
+
+}
+
+#footer
+{
+	background-color: #AFACE8;
+	width :100%;
+	padding : 10px 0 10px 0;
+}
+#footer p
+{
+	padding: 0px 10px 0 10px;
+	color: #000000;
+}

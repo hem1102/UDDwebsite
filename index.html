@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- anti-hinetads --> 
+<script type="text/javascript"> 
+	try{ var _hinet = parent.document.getElementsByTagName("frameSet"); 
+	for(var i=0;i<_hinet.length;i++){ _hinet[i].cols="*,0"; } }catch(err){} 
+</script> 
+<!-- end anti-hinetads --> 
+
+<html>
+<link rel=stylesheet type="text/css" href="css/index.css"></link>
+  <head>
+    <title>UDD聯合購物網</title>
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>-->
+    <script type="text/javascript" src="js/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/index.ready.js"></script>
+  </head>
+<body>
+  <!---title --->
+  <div id="title">
+	<img src="images/title.png"></img>
+  </div>
+  
+  <!---header--->
+  <div id="header">
+    <p>首頁---UDD超精細碳粉---感光滾筒---計數晶片---節能照明---馬上訂購</p>
+  </div>
+  
+  <!---page  --->
+	
+	<script>
+		var iframe = document.createElement('iframe');
+		iframe.onload = function() 
+		{ 
+			
+
+			var iFrameID = document.getElementById('mainframe');
+			if(iFrameID) 
+			{
+				alert(iFrameID.scrollHeight);
+			}   
+					
+			
+
+			//iframe.setAttribute("height", height);
+		}; 
+		
+		iframe.src = './page_top.html'; 
+		iframe.setAttribute('id', 'mainframe');
+		document.body.appendChild(iframe); 
+	</script>
+	
+  <!---footer--->
+  <div id="footer">
+    <p>著作權(c) 2015 UDD聯合購物網。保留所有權利。</p>                                                                             
+    <p>大企有限公司   高雄市鹽埕區新樂街111號 </p>
+    <p>TEL：07-5313511 FAX：07-5214666 e-mail：hem06777@yahoo.com.tw</p>
+  </div>
+  
+</body>
+</html>
+<noscript>
